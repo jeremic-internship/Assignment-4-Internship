@@ -50,6 +50,7 @@ int main (){
 	for (int i = 0; i < primefactors.size() - 1; ++i){
 		for(int um = i + 1; um < primefactors.size() - 1; ++um) {
 			cout << primefactors[i][1][0] << " " << primefactors[um][1][0] << " LCM " << lcm(primefactors[i][1][0], primefactors[um][1][0]) << "\n";
+			cout << primefactors[i][1][0] << " " << primefactors[um][1][0] << " HCF " << gcd(primefactors[i][1][0], primefactors[um][1][0]) << "\n";
 		}  
 
 	}
